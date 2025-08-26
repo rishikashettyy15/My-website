@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All In One Impressions - Product Catalog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+    /* Header styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Sections */
+.nav-left, .nav-center, .nav-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-left {
+  justify-content: flex-start;
+}
+
+.nav-right {
+  justify-content: flex-end;
+}
+
+/* Logo */
+.logo {
+  height: 40px;
+  max-width: 120px;
+}
+
+/* Buttons */
+.menu-btn, .icon-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .product-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .product-card h3 {
+      margin: 1rem 0 0.5rem;
+      font-size: 1.1rem;
+    }
+    .product-card p {
+      color: #444;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+  </head>
+<body>
+
+  <!-- Center: Logo -->
+  <div class="nav-center">
+    <img src="c:\Users\97155\Desktop\FEWD\WhatsApp Image 2025-08-04 at 7.53.01 PM.jpeg" alt="Logo" class="logo">
+  </div>
+
+  <!-- Right: Icons -->
+  <div class="nav-right">
+    <button class="icon-btn">🔍</button>
+    <button class="icon-btn">👤</button>
+    
+  </div>
+</header>
+
+
+<header>Product Catalog</header>
+
+<div class="product-grid">
+  <!-- Repeat this block for each product -->
+  <div class="product-card">
+    <img src="image_1.jpeg" alt="Photo Frames">
+    <h3>Photo Frames
+        (Matt,glossy,sparkle,lusture)</h3>
+    <p>From Rs:299</p>
+  </div>
+
+  
+  <div class="product-card">
+    <img src="image_2.jpeg" alt="LED Frames">
+    <h3>LED Frames
+        (with adapter)
+    </h3>
+    <p>From Rs:899 </p>
+  </div>
+
+ <div class="product-card">
+    <img src="image_3.jpeg" alt="Photo Restoration">
+    <h3>Photo Recreation
+
+        (Single Photo,bulk Photo)
+    </h3>
+    <p>From Rs:499 , Depends on qty </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_4.jpeg" alt="Acrylic Ready Frames">
+    <h3>Acrylic Ready Frames
+    </h3>
+    <p>From Rs:699 </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_5.jpeg" alt="Ready Frames">
+    <h3>Ready Frames
+        (Bulk Order)
+    </h3>
+    <p>From Rs:19 </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_6.jpeg" alt="Photo Album">
+    <h3>Photo Album
+        (Per sheet)
+    </h3>
+    <p>From Rs:89 </p>
+  </div>
+
+
+<div class="product-card">
+    <img src="image_7.jpeg" alt="Visiting Cards">
+    <h3>Visiting Cards
+        (Quantity 1000)
+    </h3>
+    <p>From Rs:1299 </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_8.jpeg" alt="Invitation Cards">
+    <h3>Invitation Cards
+        (Quantity 1000)
+    </h3>
+    <p>From Rs:1599 </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_9.jpeg" alt="Photo Frames with scale Model Cars">
+    <h3>Photo Frames with scale Model Cars
+    </h3>
+    <p>From Rs:899 </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_11.jpeg" alt="Customized T-Shirt Printing">
+    <h3>Customized T-Shirt Printing
+        (DTF,sublimation&embroidary)
+    </h3>
+    <p>From Rs:499 </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_12.jpeg" alt="Customized Hoodies Printing">
+    <h3>Customized Hoodies Printing
+        (DTF,sublimation&embroidary)
+    </h3>
+    <p>From Rs:899 </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_13.jpeg" alt="Printing On owned T-Shirt & Hoodies">
+    <h3>Printing On owned T-Shirt & hoodies</h3>
+    <p>From Rs:79 </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_14.jpeg" alt="Commercial And Professional Embroidary T-Shirt">
+    <h3>Commercial And Professional Embroidary T-Shirt
+        (Bulk orders)
+    </h3>
+    <p>From Rs:359 </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_15.jpeg" alt="Jersey">
+    <h3>Jersey
+    </h3>
+    <p>From Rs:249 </p>
+  </div>
+
+
+ <div class="product-card">
+    <img src="image_16.jpeg" alt="Sports Wear & track suit">
+    <h3>Sports Wear & track suit </h3>
+    <p>From Rs:799 </p>
+  </div>
+
+
+<div class="product-card">
+    <img src="image_17.jpeg" alt="Uniforms">
+    <h3>Uniforms </h3>
+    <p>From Rs:299 </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_18.jpeg" alt="ID Cards & Tags">
+    <h3>ID Cards & Tags </h3>
+    <p>From Rs:49 </p>
+  </div>
+
+
+<div class="product-card">
+    <img src="image_19.jpeg" alt="Key Chains">
+    <h3>Key Chains</h3>
+    <p>From Rs:49 </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_20.jpeg" alt="Mug Printing">
+    <h3>Mug Printing
+        (single,bulk)
+    </h3>
+    <p>From Rs:189</p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_43.jpeg" alt="Magic Mug">
+    <h3>Magic Mug
+        (Single,bulk)
+    </h3>
+    <p>From Rs:299 </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_21.jpeg" alt="Corporate Gifts & More">
+    <h3>Corporate Gifts & More</h3>
+    <p>From Rs:29 </p>
+  </div>
+
+ <div class="product-card">
+    <img src="image_22.jpeg" alt="Customized Gifts">
+    <h3>Customized Gifts</h3>
+    <p>From Rs:199 </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_23.jpeg" alt="Menu Cards">
+    <h3>Menu Cards
+        (5 Cards,Designing charges extra)
+    </h3>
+    <p>From Rs:999 </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_24.jpeg" alt="Stickers ">
+    <h3>Stickers</h3>
+    <p>From Rs:1.5 </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_25.jpeg" alt="Rotating Lamp ">
+    <h3>Rotating Lamp</h3>
+    <p>From Rs:499 </p>
+  </div>
+
+ <div class="product-card">
+    <img src="image_26.jpeg" alt="Brochure And Pamphlets ">
+    <h3>Brochure And Pamphlets </h3>
+    <p>From Rs:4</p>
+  </div>
+
+ <div class="product-card">
+    <img src="image_27.jpeg" alt="Wall Posters">
+    <h3>Wall Posters</h3>
+    <p>From Rs:69 </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_28.jpeg" alt=" Banners" >
+    <h3>Banners
+        (Sing Layer, Double Layer, Star Triplelayer)
+    </h3>
+    <p>From Rs:10 , 15 , 22</p>
+  </div>
+
+ <div class="product-card">
+    <img src="image_29.jpeg" alt="Momentous ">
+    <h3>Momentous</h3>
+    <p>From Rs:29 </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_30.jpeg" alt="Wood Gravings">
+    <h3>Wood Gravings</h3>
+    <p>From Rs:199 </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_31.jpeg" alt="3D Printing">
+    <h3>3D Printing</h3>
+    <p>From Rs:199 </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_32.jpeg" alt="1 Way View Glass Stickers">
+    <h3>1 Way View Glass Stickers</h3>
+    <p>From Rs:29(feet) </p>
+  </div>
+
+<div class="product-card">
+    <img src="image_33.jpeg" alt="Hand Casting">
+    <h3>Hand Casting</h3>
+    <p>From Rs:1999 </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_34.jpeg" alt="Return Gift's">
+    <h3>Return Gift's</h3>
+    <p>From Rs:59 </p>
+  </div>
+
+   <div class="product-card">
+    <img src="image_35.jpeg" alt="Bouquet">
+    <h3>Bouquet</h3>
+    <p>From Rs:499 </p>
+  </div>
+
+   <div class="product-card">
+    <img src="image_36.jpeg" alt="Stamp Seals">
+    <h3>Stamp Seals</h3>
+    <p>From Rs:69 </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_37.jpeg" alt="Custom Caps Printing">
+    <h3>Custom Caps Printing </h3>
+    <p>From Rs:99 </p>
+  </div>
+
+  <div class="product-card">
+  <img src="image_38.jpeg" alt="Event Management">
+  
+  <h3>Event Management</h3>
+  
+  <ul>
+    <li>Food Catering</li>
+    <li>Stage Decoration</li>
+    <li>Videography</li>
+    <li>Photography</li>
+    <li>Drone</li>
+    <li>Mehendi Artist</li>
+    <li>Singer & Orchestra</li>
+    <li>Marriage Return Gifts</li>
+  </ul>
+</div>
+
+
+<div class="product-card">
+    <img src="image_39.jpeg" alt="Automobile Graphics And Wraps">
+    <h3>Automobile Graphics And Wraps </h3>
+    <p>Coming soon </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_40.jpeg" alt="Custom Dress Designing">
+    <h3>Custom Dress Designing </h3>
+    <p>Coming soon </p>
+  </div>
+
+ <div class="product-card">
+    <img src="image_41.jpeg" alt="Cloth Brandings">
+    <h3>Cloth Brandings </h3>
+    <p>Coming soon </p>
+  </div>
+
+  <div class="product-card">
+    <img src="image_42.jpeg" alt="Puppy Gift">
+    <h3>Puppy Gift </h3>
+    <p>Contact for price </p>
+  </div>
+
+
+</div>
+
+
+<footer style="background-color:#000000; ; color: rgb(236, 231, 231); text-align: center; padding: 1.5rem; margin-top: 2rem;">
+  <p>Thank you for visiting All In One Impressions!</p>
+  <p>Contact us: <a href="Ph : +91 9535078331 , +91 9480548060" style="color: #4a90e2; text-decoration: none;"> +91 9535078331 , +91 9480548060</a></p>
+   <!-- WhatsApp Button -->
+  <p>
+    <a href="https://wa.me/+91 9535078331" target="_blank" style="background: #25D366; color: white; padding: 10px 20px; border-radius: 25px; text-decoration: none; display: inline-block; margin: 10px 0;">
+      Chat on WhatsApp
+    </a>
+  </p>
+
+  <!-- Social Media Icons (Simple Text Links or Use Icons if preferred) -->
+  <p style="margin-top: 10px;">
+    <a href="https://www.instagram.com/all_in_1_impressions" target="_blank" style="color: rgb(243, 235, 235); margin: 0 10px;">Instagram</a> |
+    <a href="mailto: allin1impressions@gmail.com" style="color: rgb(248, 242, 242); margin: 0 10px;">Email</a>
+  </p>
+
+</footer>
+
+</body>
+</html>
+
